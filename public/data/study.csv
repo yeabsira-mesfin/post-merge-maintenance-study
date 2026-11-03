@@ -1,0 +1,5 @@
+repository,number,origin,additions,deletions,distinct_reviewers,approval_present,hours_to_merge,reviews_complete,tracking_complete,right_censored,later_edit_commits
+pallets/flask,6133,unknown,14,2,0,False,0.03,True,True,False,0
+pallets/flask,6096,unknown,23,5,1,False,676.3,True,True,False,2
+psf/requests,7609,unknown,1,1,1,True,0.19,True,True,False,0
+psf/requests,7608,verified automation,1,1,1,True,0.65,True,True,False,1

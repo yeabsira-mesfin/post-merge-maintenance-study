@@ -1,0 +1,9 @@
+{
+  "sample_version": "1.0.0",
+  "selection": "Two most recently created merged PRs before the cutoff per repository. Mature public Python libraries; convenience sample selected before outcome inspection.",
+  "repositories": ["pallets/flask", "psf/requests"],
+  "merged_before": "2026-09-01",
+  "prs_per_repository": 2,
+  "window_days": 30,
+  "max_files_per_pr": 5
+}

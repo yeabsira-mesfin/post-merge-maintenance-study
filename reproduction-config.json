@@ -1,0 +1,26 @@
+{
+  "sample_version": "1.0.0",
+  "selection": "Two most recently created merged PRs before the cutoff per repository. Mature public Python libraries; convenience sample selected before outcome inspection.",
+  "repositories": [
+    "pallets/flask",
+    "psf/requests"
+  ],
+  "merged_before": "2026-09-01",
+  "prs_per_repository": 2,
+  "window_days": 30,
+  "max_files_per_pr": 5,
+  "pinned_prs": {
+    "pallets/flask": [
+      6133,
+      6096
+    ],
+    "psf/requests": [
+      7609,
+      7608
+    ]
+  },
+  "pinned_heads": {
+    "pallets/flask": "49943b5a94413a530761350f04e896f76e8d620e",
+    "psf/requests": "3c7baaa05ab4aa49cc819ce3a819d260de19c157"
+  }
+}

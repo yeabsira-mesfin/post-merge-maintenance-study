@@ -1,0 +1,532 @@
+{
+  "schema_version": 1,
+  "project": "Post-Merge Maintenance Study",
+  "data_kind": "public GitHub observations",
+  "generated_at": "2026-11-03T22:21:18.341752+00:00",
+  "selection": {
+    "pallets/flask": {
+      "pr_numbers": [
+        6133,
+        6096
+      ],
+      "default_branch": "main",
+      "head_sha": "49943b5a94413a530761350f04e896f76e8d620e",
+      "language": "Python"
+    },
+    "psf/requests": {
+      "pr_numbers": [
+        7609,
+        7608
+      ],
+      "default_branch": "main",
+      "head_sha": "3c7baaa05ab4aa49cc819ce3a819d260de19c157",
+      "language": "Python"
+    }
+  },
+  "config": {
+    "sample_version": "1.0.0",
+    "selection": "Two most recently created merged PRs before the cutoff per repository. Mature public Python libraries; convenience sample selected before outcome inspection.",
+    "repositories": [
+      "pallets/flask",
+      "psf/requests"
+    ],
+    "merged_before": "2026-09-01",
+    "prs_per_repository": 2,
+    "window_days": 30,
+    "max_files_per_pr": 5
+  },
+  "pull_requests": [
+    {
+      "repository": "pallets/flask",
+      "number": 6133,
+      "url": "https://github.com/pallets/flask/pull/6133",
+      "title": "add `app.query` route decorator",
+      "created_at": "2026-08-11T20:17:29Z",
+      "merged_at": "2026-08-11T20:19:14Z",
+      "merge_commit_sha": "d8eaaba824655046958d1a97f11780de460c3271",
+      "head_sha": "49943b5a94413a530761350f04e896f76e8d620e",
+      "language": "Python",
+      "additions": 14,
+      "deletions": 2,
+      "changed_files": 3,
+      "distinct_reviewers": 0,
+      "review_count": 0,
+      "approval_present": false,
+      "changes_requested_count": 0,
+      "merge_without_formal_review": true,
+      "hours_to_merge": 0.03,
+      "origin": "unknown",
+      "automation_kind": null,
+      "evidence": "A User account does not establish whether code was human- or AI-authored.",
+      "account_id": null,
+      "review_comments": 0,
+      "review_comments_scope": "all-time count, not pre-merge review rigor",
+      "reviews_complete": true,
+      "files_complete": true,
+      "tracked_files": [
+        "CHANGES.rst",
+        "src/flask/sansio/scaffold.py",
+        "tests/test_basic.py"
+      ],
+      "untracked_files": 0,
+      "tracking_complete": true,
+      "history_pages_complete": true,
+      "right_censored": false,
+      "window_days": 30,
+      "observed_days": 30.0,
+      "events": [],
+      "source": "https://api.github.com/repos/pallets/flask/pulls/6133"
+    },
+    {
+      "repository": "pallets/flask",
+      "number": 6096,
+      "url": "https://github.com/pallets/flask/pull/6096",
+      "title": "Fix `.partition(\":\")` usage on potential IPv6 addresses",
+      "created_at": "2026-07-14T15:30:46Z",
+      "merged_at": "2026-08-11T19:48:41Z",
+      "merge_commit_sha": "05e9c6bd630ecf4ec0ec884b1fc7901663737bc7",
+      "head_sha": "49943b5a94413a530761350f04e896f76e8d620e",
+      "language": "Python",
+      "additions": 23,
+      "deletions": 5,
+      "changed_files": 4,
+      "distinct_reviewers": 1,
+      "review_count": 1,
+      "approval_present": false,
+      "changes_requested_count": 0,
+      "merge_without_formal_review": false,
+      "hours_to_merge": 676.3,
+      "origin": "unknown",
+      "automation_kind": null,
+      "evidence": "A User account does not establish whether code was human- or AI-authored.",
+      "account_id": null,
+      "review_comments": 4,
+      "review_comments_scope": "all-time count, not pre-merge review rigor",
+      "reviews_complete": true,
+      "files_complete": true,
+      "tracked_files": [
+        "src/flask/app.py",
+        "src/flask/testing.py",
+        "tests/test_basic.py",
+        "tests/test_testing.py"
+      ],
+      "untracked_files": 0,
+      "tracking_complete": true,
+      "history_pages_complete": true,
+      "right_censored": false,
+      "window_days": 30,
+      "observed_days": 30.0,
+      "events": [
+        {
+          "sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "date": "2026-08-11T20:15:18Z",
+          "url": "https://github.com/pallets/flask/commit/89992954ec71b594b1b911f98977cdc8ad46a057",
+          "message": "add app.query route decorator",
+          "classification": "later file edit",
+          "files": [
+            "tests/test_basic.py"
+          ],
+          "attribution": "file overlap only; introduced-line attribution not established",
+          "days_after_merge": 0.018
+        },
+        {
+          "sha": "d73fa1cdcbd8b1465c151db8924ba58b1dd14e35",
+          "date": "2026-09-08T16:40:41Z",
+          "url": "https://github.com/pallets/flask/commit/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35",
+          "message": "fix docs ref",
+          "classification": "fix-keyword edit",
+          "files": [
+            "src/flask/app.py"
+          ],
+          "attribution": "file overlap only; introduced-line attribution not established",
+          "days_after_merge": 27.869
+        }
+      ],
+      "source": "https://api.github.com/repos/pallets/flask/pulls/6096"
+    },
+    {
+      "repository": "psf/requests",
+      "number": 7609,
+      "url": "https://github.com/psf/requests/pull/7609",
+      "title": "Update lock-issues.yml to latest dependencies",
+      "created_at": "2026-08-25T00:34:49Z",
+      "merged_at": "2026-08-25T00:45:57Z",
+      "merge_commit_sha": "5460f467b02e49471c0fd6cfc9ca0adab6351f98",
+      "head_sha": "3c7baaa05ab4aa49cc819ce3a819d260de19c157",
+      "language": "Python",
+      "additions": 1,
+      "deletions": 1,
+      "changed_files": 1,
+      "distinct_reviewers": 1,
+      "review_count": 1,
+      "approval_present": true,
+      "changes_requested_count": 0,
+      "merge_without_formal_review": false,
+      "hours_to_merge": 0.19,
+      "origin": "unknown",
+      "automation_kind": null,
+      "evidence": "A User account does not establish whether code was human- or AI-authored.",
+      "account_id": null,
+      "review_comments": 0,
+      "review_comments_scope": "all-time count, not pre-merge review rigor",
+      "reviews_complete": true,
+      "files_complete": true,
+      "tracked_files": [
+        ".github/workflows/lock-issues.yml"
+      ],
+      "untracked_files": 0,
+      "tracking_complete": true,
+      "history_pages_complete": true,
+      "right_censored": false,
+      "window_days": 30,
+      "observed_days": 30.0,
+      "events": [],
+      "source": "https://api.github.com/repos/psf/requests/pulls/7609"
+    },
+    {
+      "repository": "psf/requests",
+      "number": 7608,
+      "url": "https://github.com/psf/requests/pull/7608",
+      "title": "Bump https://github.com/astral-sh/ruff-pre-commit from v0.16.2 to 0.16.3 in the pre-commit group",
+      "created_at": "2026-08-24T16:54:28Z",
+      "merged_at": "2026-08-24T17:33:15Z",
+      "merge_commit_sha": "6af0b94158bbe10c45e754e85f9701f401e6aa9c",
+      "head_sha": "3c7baaa05ab4aa49cc819ce3a819d260de19c157",
+      "language": "Python",
+      "additions": 1,
+      "deletions": 1,
+      "changed_files": 1,
+      "distinct_reviewers": 1,
+      "review_count": 1,
+      "approval_present": true,
+      "changes_requested_count": 0,
+      "merge_without_formal_review": false,
+      "hours_to_merge": 0.65,
+      "origin": "verified automation",
+      "automation_kind": "dependency-update bot",
+      "evidence": "GitHub user.type=Bot; not proof of coding-agent authorship",
+      "account_id": 49699333,
+      "review_comments": 0,
+      "review_comments_scope": "all-time count, not pre-merge review rigor",
+      "reviews_complete": true,
+      "files_complete": true,
+      "tracked_files": [
+        ".pre-commit-config.yaml"
+      ],
+      "untracked_files": 0,
+      "tracking_complete": true,
+      "history_pages_complete": true,
+      "right_censored": false,
+      "window_days": 30,
+      "observed_days": 30.0,
+      "events": [
+        {
+          "sha": "dae7ef63b4df6eded86637f251fc4e3a06c3b479",
+          "date": "2026-09-02T18:15:52Z",
+          "url": "https://github.com/psf/requests/commit/dae7ef63b4df6eded86637f251fc4e3a06c3b479",
+          "message": "Bump https://github.com/astral-sh/ruff-pre-commit (#7616)",
+          "classification": "later file edit",
+          "files": [
+            ".pre-commit-config.yaml"
+          ],
+          "attribution": "file overlap only; introduced-line attribution not established",
+          "days_after_merge": 9.03
+        }
+      ],
+      "source": "https://api.github.com/repos/psf/requests/pulls/7608"
+    }
+  ],
+  "analysis": {
+    "by_approval": [
+      {
+        "group": "approval recorded",
+        "eligible_prs": 2,
+        "prs_with_later_edits": 1,
+        "edit_rate": 0.5,
+        "wilson_95_interval": [
+          0.0945,
+          0.9055
+        ]
+      },
+      {
+        "group": "no approval recorded",
+        "eligible_prs": 2,
+        "prs_with_later_edits": 1,
+        "edit_rate": 0.5,
+        "wilson_95_interval": [
+          0.0945,
+          0.9055
+        ]
+      }
+    ],
+    "by_repository_and_size": [
+      {
+        "repository": "pallets/flask",
+        "size_stratum": "small",
+        "prs": 2,
+        "prs_with_later_edits": 1
+      },
+      {
+        "repository": "psf/requests",
+        "size_stratum": "small",
+        "prs": 2,
+        "prs_with_later_edits": 1
+      }
+    ],
+    "interpretation": "Descriptive file-level associations only. No causal estimate, AI-vs-human comparison, or defect rate."
+  },
+  "errors": [],
+  "sources": [
+    {
+      "url": "https://api.github.com/repos/pallets/flask",
+      "observed_at": "2026-11-03T22:21:22.179853+00:00",
+      "sha256": "b1c464c958c088c40ad69812ba999f77dafa91ec0c678e08741c132fa5d1407f",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"57a7c0105b19139c5b778032892be8dcbaefae60860269a51959b8cae2c18b41\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/commits/main",
+      "observed_at": "2026-11-03T22:21:25.708242+00:00",
+      "sha256": "b03599ee818fb1d2e6aa5e8444d4da1b030238dd03bcaffc0436ed6ac8cd5670",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"e5e56db23e0a0d787b12ba6a040ffac8be70b9447d769d30410b4742ceab0b9b\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/search/issues?q=repo%3Apallets%2Fflask+is%3Apr+is%3Amerged+merged%3A%3C2026-09-01&sort=created&order=desc&per_page=2&page=1",
+      "observed_at": "2026-11-03T22:21:29.471890+00:00",
+      "sha256": "7ff402dac429c22ff8e5595c2e5a8a65dcf0b6fbf017f05913f0c3ecf8308549",
+      "status": 200,
+      "request_body": null,
+      "etag": null,
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/pulls/6133",
+      "observed_at": "2026-11-03T22:21:32.679694+00:00",
+      "sha256": "b1fe26de722179987eb4761e5ddedd00ad306f500ae5bd6e2b414274f35c8ecc",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"511fe26f846b86ce95912c72b74a4c0d9508f4f9512c786eb3c778eb8a2b7cae\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/pulls/6133/files?per_page=100&page=1",
+      "observed_at": "2026-11-03T22:21:35.965907+00:00",
+      "sha256": "cfd31970a23a76f1e405098a20c670e02cd035dc66e00346f76b321ad66fb85a",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"cac106c0c831dd77e286edb809e6021d8fc303bd8b29e7eb5fcc07e7872dd8b1\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/pulls/6133/reviews?per_page=100&page=1",
+      "observed_at": "2026-11-03T22:21:39.302718+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"786576b9a5676cf995d43cd9d1b0a29cd3c698d48e24a8ef9bb52dc5df7f6ad9\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/commits?sha=49943b5a94413a530761350f04e896f76e8d620e&path=CHANGES.rst&since=2026-08-11T20%3A19%3A14%2B00%3A00&until=2026-09-10T20%3A19%3A14%2B00%3A00&per_page=100&page=1",
+      "observed_at": "2026-11-03T22:21:42.529240+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"786576b9a5676cf995d43cd9d1b0a29cd3c698d48e24a8ef9bb52dc5df7f6ad9\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/commits?sha=49943b5a94413a530761350f04e896f76e8d620e&path=src%2Fflask%2Fsansio%2Fscaffold.py&since=2026-08-11T20%3A19%3A14%2B00%3A00&until=2026-09-10T20%3A19%3A14%2B00%3A00&per_page=100&page=1",
+      "observed_at": "2026-11-03T22:21:45.824539+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"786576b9a5676cf995d43cd9d1b0a29cd3c698d48e24a8ef9bb52dc5df7f6ad9\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/commits?sha=49943b5a94413a530761350f04e896f76e8d620e&path=tests%2Ftest_basic.py&since=2026-08-11T20%3A19%3A14%2B00%3A00&until=2026-09-10T20%3A19%3A14%2B00%3A00&per_page=100&page=1",
+      "observed_at": "2026-11-03T22:21:49.603834+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"786576b9a5676cf995d43cd9d1b0a29cd3c698d48e24a8ef9bb52dc5df7f6ad9\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/pulls/6096",
+      "observed_at": "2026-11-03T22:21:53.795951+00:00",
+      "sha256": "458b6f8b0904eeb143d77dc140ff3f4dae4114b4a78662bd19ea13c6321f899e",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"9999cc17c1957b394b88281861e766442fc910618fcd69cc0cf53444afe730e1\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/pulls/6096/files?per_page=100&page=1",
+      "observed_at": "2026-11-03T22:21:57.479196+00:00",
+      "sha256": "f31b72052a391d9dba9e4486e78aafa6f4bf3e8f8a46a4bfc3c0fa05758ff7fe",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"1a83b0624b9e6432225fe1a45a897000a25e7abc2801115f0a5ec5781ec29465\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/pulls/6096/reviews?per_page=100&page=1",
+      "observed_at": "2026-11-03T22:22:00.787649+00:00",
+      "sha256": "fdafa8ae02e1f05cb87905a7f6d145ced86318a0bcc63f382f1ad594af823d89",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"cdb248a231f2806fd3ae1c4ddf2109dece6b118b79e0d52558593c383fb12967\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/commits?sha=49943b5a94413a530761350f04e896f76e8d620e&path=src%2Fflask%2Fapp.py&since=2026-08-11T19%3A48%3A41%2B00%3A00&until=2026-09-10T19%3A48%3A41%2B00%3A00&per_page=100&page=1",
+      "observed_at": "2026-11-03T22:22:03.753256+00:00",
+      "sha256": "a7b5dc4bc824d80997e362951eb8308d243b7bf8feda690fa2884ff996cfd625",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"f41fbc6f70de7bdbf8a221b12bf71c25d8f9f776451f080baf85f4159b469207\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/commits?sha=49943b5a94413a530761350f04e896f76e8d620e&path=src%2Fflask%2Ftesting.py&since=2026-08-11T19%3A48%3A41%2B00%3A00&until=2026-09-10T19%3A48%3A41%2B00%3A00&per_page=100&page=1",
+      "observed_at": "2026-11-03T22:22:06.882448+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"786576b9a5676cf995d43cd9d1b0a29cd3c698d48e24a8ef9bb52dc5df7f6ad9\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/commits?sha=49943b5a94413a530761350f04e896f76e8d620e&path=tests%2Ftest_basic.py&since=2026-08-11T19%3A48%3A41%2B00%3A00&until=2026-09-10T19%3A48%3A41%2B00%3A00&per_page=100&page=1",
+      "observed_at": "2026-11-03T22:22:10.053099+00:00",
+      "sha256": "48a80475f1d078bcf3bc53098ee9345f40a8f50837a5f308b0ff9336d35e1fed",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"d77d01ea975f14757004dadf9bdfc191f9eb135ebe62db922dce02154945a387\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/pallets/flask/commits?sha=49943b5a94413a530761350f04e896f76e8d620e&path=tests%2Ftest_testing.py&since=2026-08-11T19%3A48%3A41%2B00%3A00&until=2026-09-10T19%3A48%3A41%2B00%3A00&per_page=100&page=1",
+      "observed_at": "2026-11-03T22:22:13.191847+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"786576b9a5676cf995d43cd9d1b0a29cd3c698d48e24a8ef9bb52dc5df7f6ad9\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/psf/requests",
+      "observed_at": "2026-11-03T22:22:16.257314+00:00",
+      "sha256": "c8a4aa41bb775a4dcdd12ee1cf4eb7d90386b2ef8975fc470259d8123c9e0895",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"67e8fa6ffef2f0266446aaf73a9672ae7578b4a9e97caaecb847d72a5d2527f4\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/psf/requests/commits/main",
+      "observed_at": "2026-11-03T22:22:19.676135+00:00",
+      "sha256": "fcb1dc1b7482f078a217db2bb7b624d884f3e48e776ad3732d419b80785a5e3e",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"4d38cbc54f8c412d627c479ad02e7cd4f05b9d0509187513d79332db9d2a2e5d\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/search/issues?q=repo%3Apsf%2Frequests+is%3Apr+is%3Amerged+merged%3A%3C2026-09-01&sort=created&order=desc&per_page=2&page=1",
+      "observed_at": "2026-11-03T22:22:23.172258+00:00",
+      "sha256": "d9c76bc4147cb4dfaf4291d32a819647ea7614757fbfa1239b8c8abdc4c60b7d",
+      "status": 200,
+      "request_body": null,
+      "etag": null,
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/psf/requests/pulls/7609",
+      "observed_at": "2026-11-03T22:22:26.887850+00:00",
+      "sha256": "91a968fa4d6aa7f5a3c0731566d187b72ae0cf37fcf93487772e1155e6228b03",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"2c022e5ad20f352ccf2c5d5726fe4a0ef374174c72f4274bdbe2afe340b087d4\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/psf/requests/pulls/7609/files?per_page=100&page=1",
+      "observed_at": "2026-11-03T22:22:30.222279+00:00",
+      "sha256": "689cde9d1aec66d68f1d36595b6f8dd3341c556c7ca7bc27538b3bb0fb1247ad",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"85d43a94f38b7d57813eb9da9c0d7661e71d67ba76834d946ee1236261570ae0\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/psf/requests/pulls/7609/reviews?per_page=100&page=1",
+      "observed_at": "2026-11-03T22:22:33.960126+00:00",
+      "sha256": "cdc85c9abec7aa8a529b744613e8658898dee1f374ced00e7b161872d8c6f33f",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"4597b290435867d5022ca038befcb2c528ab18f382f212e83fe24100c22ea29c\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/psf/requests/commits?sha=3c7baaa05ab4aa49cc819ce3a819d260de19c157&path=.github%2Fworkflows%2Flock-issues.yml&since=2026-08-25T00%3A45%3A57%2B00%3A00&until=2026-09-24T00%3A45%3A57%2B00%3A00&per_page=100&page=1",
+      "observed_at": "2026-11-03T22:22:37.293635+00:00",
+      "sha256": "08c2eee1c8fc67c86f08124fd0150a98c0e4e68c76d2804b432aa69139fa6b73",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"daa9e491458d384bfd9271c523b176a5204818010353bd8e2bf81591b81b1859\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/psf/requests/pulls/7608",
+      "observed_at": "2026-11-03T22:22:40.707763+00:00",
+      "sha256": "29b1d025f7321d2274f5d37c2c41d14d552a5038cfdb727d474f42821ff22dd8",
+      "status": 200,
+      "request_body": null,
+      "etag": "\"fdb7395993b6d34c7f1a2972aa2bf1e82427c9db0d2254fdbcfcf9ba899dbd77\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/psf/requests/pulls/7608/files?per_page=100&page=1",
+      "observed_at": "2026-11-03T22:22:44.043384+00:00",
+      "sha256": "b4f6b955622e32151160bbb0e43a2b39df7c1bac3d65f0f7f2358c583ee4fe51",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"659b2c45054f72d69bee19884da78c6c87e2c4199f7039883902e5517c6b8cd8\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/psf/requests/pulls/7608/reviews?per_page=100&page=1",
+      "observed_at": "2026-11-03T22:22:47.800637+00:00",
+      "sha256": "62649df17dec285917548900689795d9f49e2c56657446644fb31031371b6e58",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"5e756ec5eb1eb2c02bc292abc8ba01e2eb873a9f16b4427c077a460cec90c5c9\"",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.github.com/repos/psf/requests/commits?sha=3c7baaa05ab4aa49cc819ce3a819d260de19c157&path=.pre-commit-config.yaml&since=2026-08-24T17%3A33%3A15%2B00%3A00&until=2026-09-23T17%3A33%3A15%2B00%3A00&per_page=100&page=1",
+      "observed_at": "2026-11-03T22:22:51.511896+00:00",
+      "sha256": "4723bc2587486f4a5f74436ffdd30f0aa381556b6d7f1a26e049c1cf4ee858ff",
+      "status": 200,
+      "request_body": null,
+      "etag": "W/\"603addee634076e8f726725a6201e7367dd6e57831510ef8f8f4c30beb9ed5fa\"",
+      "cache_hit": false
+    }
+  ],
+  "request_count": 27,
+  "limitations": [
+    "Small purposive Python sample; no population inference.",
+    "File overlaps and message keywords are maintenance candidates, not defects.",
+    "Missing or renamed/deleted paths and page/file caps make tracking incomplete.",
+    "User accounts remain unknown origin; no AI-versus-human finding.",
+    "Review activity is a proxy, not a direct measure of quality."
+  ]
+}
